@@ -1,0 +1,4 @@
+{
+	// Increase editor font size by 2px (from default 14 -> 16)
+	"editor.fontSize": 16
+}

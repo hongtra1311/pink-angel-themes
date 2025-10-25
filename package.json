@@ -1,0 +1,87 @@
+{
+  "name": "pink-angel-themes",
+  "displayName": "Pink Themes Collection",
+  "description": "All pink themes for VS Code you've dreamt of",
+  "version": "0.0.1",
+  "publisher": "novteaaa",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pink Theme",
+        "uiTheme": "vs",
+        "path": "./themes/light/pink-theme.json"
+      },
+      {
+        "label": "Dark Pink Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/dark-pink-theme.json"
+      },
+      {
+        "label": "Sunshine Pink",
+        "uiTheme": "vs",
+        "path": "./themes/light/sunshine-pink.json"
+      },
+      {
+        "label": "Matcha Pink",
+        "uiTheme": "vs",
+        "path": "./themes/light/matcha-pink.json"
+      },
+      {
+        "label": "Sky Pink",
+        "uiTheme": "vs",
+        "path": "./themes/light/sky-pink.json"
+      },
+      {
+        "label": "Iris Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/iris-pink.json"
+      },
+      {
+        "label": "Forest Rose Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/forest-rose.json"
+      },
+      {
+        "label": "Paris Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/paris-pink.json"
+      },
+      {
+        "label": "Chocolate Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/chocolate-pink.json"
+      },
+      {
+        "label": "Autumn Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/autumn-theme.json"
+      },
+      {
+        "label": "Violet Pink",
+        "uiTheme": "vs",
+        "path": "./themes/dark/violet-pink.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/vscode": "^1.100.0",
+    "typescript": "^5.8.2"
+  }
+}
