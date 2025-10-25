@@ -3,9 +3,13 @@
   "displayName": "Pink Themes Collection",
   "description": "All pink themes for VS Code you've dreamt of",
   "version": "0.0.1",
-  "publisher": "novteaaa",
+  "publisher": "hongtrapt",
   "engines": {
     "vscode": "^1.100.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongtra1311/pink-angel-themes"
   },
   "categories": [
     "Themes"

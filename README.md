@@ -2,7 +2,7 @@
 
 This is my extension to change boring theme to excited colors. We all love pink.
 
-# Pink a theme
+# Pick a theme
 
 ![dark-pink](demo/dark-pink.png)
 ![iris-pink](demo/iris-pink.png)
@@ -13,7 +13,8 @@ And many more!!!
 
 # Contribute theme
 
-If you have any idea, here is my source code:  
+If you have any beautiful theme, please contribute in https://github.com/hongtra1311/pink-angel-themes.
+Thank you.
 
 ## Running the Sample
 
